@@ -1,6 +1,10 @@
 import React from "react";
-import CardList from "../cards/list/CardList";
+import CardList from "../cards/CardList";
 
 export default function Home() {
-  return <CardList />;
+  return (
+      <div className="login">
+            <CardList />
+      </div>
+  )
 }

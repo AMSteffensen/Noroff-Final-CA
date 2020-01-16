@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## TODO: 
+    - Add error warnings when fetch fails
+    - Add breadcrumbs to navigation
+    - Work on fetching single cards (Document ready function)
+
 ## Available Scripts
 
 In the project directory, you can run:

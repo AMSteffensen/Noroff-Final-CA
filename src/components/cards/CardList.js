@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import fetchMock from "fetch-mock";
-import {BASE_URL} from "../../../constants/API";
-import mockCards from "../../../constants/cards";
+import {BASE_URL} from "../../constants/API";
+import mockCards from "../../constants/cards";
 import "./CardList.scss";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
