@@ -1,16 +1,20 @@
 //variables
 @import url(https://fonts.googleapis.com/css?family=Merriweather|Oswald&display=swap);
 
-$merri: 'Merriweather',
+$font-merri: 'Merriweather',
 serif;
-$oswald: 'Oswald',
+$font-oswald: 'Oswald',
 sans-serif;
+
+$color-primary: '#1abc9c';
+$color-secondary: '#3498db';
 
 
 @import 'partials/about';
 @import 'partials/contact';
 @import 'partials/home';
 @import 'partials/login';
+@import 'partials/search';
 
 body {
     margin: 0;
@@ -19,9 +23,9 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: $merri;
+    font-family: $font-merri;
 }
 
 p {
-    font-family: $oswald;
+    font-family: $font-oswald;
 }

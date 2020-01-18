@@ -1,12 +1,12 @@
 .about {
-    font-family: $oswald;
+    font-family: $font-oswald;
     font-size: 1.3em;
     background-color: white;
     &__text {
         color: black;
     }
     &__heading {
-        font-family: $merri;
+        font-family: $font-merri;
         color: black;
         margin: 1% 0 30px 0;
     }

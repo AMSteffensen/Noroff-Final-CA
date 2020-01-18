@@ -1,0 +1,10 @@
+.search {
+    margin-top: 10%;
+
+    &__input {
+        border: 2px solid $color-secondary;
+        padding: 10px 20px;
+        margin: 40px auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+}
