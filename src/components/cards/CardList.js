@@ -13,18 +13,7 @@ import Search from "./Search"
 export default function CardList() {
   const [cards, setCards] = useState([]);
   const [filteredCards, setFilteredCards] = useState([]);
-
-  // useEffect(() => {
-  //   fetchMock.mock(BASE_URL, {cards: mockCards});
-
-  //   fetch(BASE_URL)
-  //     .then(response => response.json())
-  //     .then(json => {
-  //       setCards(json.cards));
-  //       setFilteredCards(json.cards);
-  //     })
-  //     .catch(error => console.log(error));
-  // }, []);
+  const [loading, setLoading] = useState(true);
 
     useEffect(() => {
     fetch(BASE_URL)
