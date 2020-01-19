@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     - Add error warnings when fetch fails
     - Add breadcrumbs to navigation
     - Work on fetching single cards (Document ready function)
+    - Finalize login and contact form
 
 ## Available Scripts
 
