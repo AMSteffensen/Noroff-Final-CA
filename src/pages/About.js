@@ -1,5 +1,5 @@
 import React from "react";
-import AboutAccordion from './AboutAccordion';
+import AboutAccordion from '../components/about/AboutAccordion';
 
 export default function About() {
   return (

@@ -14,13 +14,11 @@ import {
 } from "react-router-dom";
 
 import Container from "react-bootstrap/Container";
-import Home from "../home/Home";
-import About from "../about/About";
-import Contact from "../contact/Contact";
+import Home from "../../pages/Home";
+import About from "../../pages/About";
+import Contact from "../../pages/Contact";
 import CardDetailContainer from "../cards/CardDetailContainer";
 import Login from "../login/Login";
-
-
 
 
 function Layout() {
@@ -42,9 +40,6 @@ function Layout() {
             <NavLink to='/contact/' className='nav-link'>
               Contact
             </NavLink>
-            <NavLink to='/login/' className='nav-link'>
-              Login
-            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -54,7 +49,6 @@ function Layout() {
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
           <Route path='/card/:id' component={CardDetailContainer} />
-          <Route path='/login' component={Login} />
         </Switch>
       </Container>
     </Router>
