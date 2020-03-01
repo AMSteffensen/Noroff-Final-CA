@@ -4,7 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     - Add error warnings when fetch fails
     - Add placement cards for card without image
     
-    Improvements project 2, css Frameworks
+    
+## Changes project 2, css Frameworks
 
 * add webpack for configuration management and build static site
 * add gulp for small taks such as minify css, browsersync during development
