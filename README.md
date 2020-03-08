@@ -2,9 +2,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## TODO: 
     - Add error warnings when fetch fails
-    - Add breadcrumbs to navigation
-    - Work on fetching single cards (Document ready function)
-    - Finalize login and contact form
+    - Add placement cards for card without image
+    
+    
+## Changes project 2, css Frameworks
+
+* add webpack for configuration management and build static site
+* add gulp for small taks such as minify css, browsersync during development
+* Fix class names acording to teacher feedback
+* Deploy project on netlify
 
 ## Available Scripts
 
